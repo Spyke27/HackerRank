@@ -13,11 +13,13 @@ public class JavaStudents {
 		Scanner sc = new Scanner(System.in);
 		
 		List<Student> list = new ArrayList<>();
-		list.add(new Student("Anna", 1, 3.80));
-		list.add(new Student("Bob", 2, 4.78));
-		list.add(new Student("Cindy", 3, 1.50));
+		
+		list.add(new Student("Bob", 2, 4.20));
+		list.add(new Student("Evellyn", 5, 4.20));
+		list.add(new Student("Cindy", 3, 4.20));
+		list.add(new Student("Anna", 1, 4.20));
 		list.add(new Student("David", 4, 4.20));
-		list.add(new Student("Evellyn", 5, 2.97));
+		
 		
 		Collections.sort(list);
 		

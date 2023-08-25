@@ -37,7 +37,7 @@ public class Student implements Comparable<Student>{
 		} else if(this.cgpa < other.getCgpa()) {
 			return 1;
 		} else {
-			return 0;
+			return this.getName().compareTo(other.getName());
 		}
 	}
 }
